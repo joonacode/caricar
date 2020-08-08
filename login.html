@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caricar - Login</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="container navbar">
+            <div>
+                <a href="index.html" class="logo">
+                    <img src="assets/images/logo.png" width="75" alt="caricar logo">
+                </a>
+            </div>
+            <div id="tombol-menu">
+                <svg height="32" width="32" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M4 10h24a2 2 0 000-4H4a2 2 0 000 4zm24 4H4a2 2 0 000 4h24a2 2 0 000-4zm0 8H4a2 2 0 000 4h24a2 2 0 000-4z" />
+                </svg>
+            </div>
+            <div class="menu-kanan">
+                <div class="list-menu">
+                    <ul class="menu">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="index.html#about-website">Tentang kami</a>
+                        </li>
+                        <li>
+                            <a href="404.html">Kontak</a>
+                        </li>
+                        <li>
+                            <a href="404.html">Podcast</a>
+                        </li>
+                        <li>
+                            <a href="404.html">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="login.html" class="btn btn-dark btn-login">Login</a>
+                <a href="daftar.html" class="btn btn-dark">Daftar</a>
+            </div>
+
+        </div>
+    </nav>
+    <!-- Main -->
+    <main class="container">
+        <!-- Content -->
+        <div id="content">
+            <div class="breadcrumb">
+                <span><a href="index.html">Home</a></span>
+                <span>/</span>
+                <span>Login</span>
+            </div>
+            <article id="login">
+                <div class="login-card">
+                    <h2>Login</h2>
+                    <form action="#">
+                        <div class="form">
+                            <label for="">Username / Email</label>
+                            <input type="text" class="form-input" placeholder="Username / Email">
+                        </div>
+                        <div class="form">
+                            <label for="">Password</label>
+                            <input type="password" class="form-input" placeholder="Password">
+                        </div>
+                        <div class="form">
+                            <button type="button" onclick="alert('Login belum berfungsi kak : )')" class="btn btn-primary pad-x text-sedeng">Login</button>
+                        </div>
+                    </form>
+                    <small>Belum punya akun ? <a href="daftar.html">daftar disini</a></small>
+                </div>
+            </article>
+
+        </div>
+        <!-- Sidebar -->
+        <aside>
+            <h5 class="about-header">Tentang Saya</h5>
+            <img src="assets/images/profile.jpeg" class="about-img" alt="">
+            <p class="about-desc">
+                Nama : Cep Guna Widodo <br>
+                Umur : 18 Tahun <br>
+                Status : Pelajar <br>
+                Pendidikan : SMK <br>
+                Alamat : Bandung, Indonesia <br>
+                Email : cepgunawidodo@gmail.com <br>
+                <div class="about-sosial-media">
+                    <a href="https://www.instagram.com/cepguna20" target="_blank">
+                        <img src="assets/images/ig.svg" width="30" alt="">
+                    </a>
+                    <a href="https://web.facebook.com/cep.gunz" target="_blank">
+                        <img src="assets/images/facebook.svg" width="30" alt="">
+                    </a>
+                    <a href="#" onclick="alert('Aduh saya gak punya twitter')">
+                        <img src="assets/images/twitter.svg" width="30" alt="">
+                    </a>
+                    <a href="https://github.com/joonacode" target="_blank">
+                        <img src="assets/images/github.svg" width="30" alt="">
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=+6282121609346&text=Hallo ini dengan Cep Guna ?"
+                        target="_blank">
+                        <img src="assets/images/whatsapp.svg" width="30" alt="">
+                    </a>
+                </div>
+            </p>
+        </aside>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            Copyright &copy; 2020 caricar.net | Created By Cep Guna Widodo
+        </div>
+    </footer>
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
